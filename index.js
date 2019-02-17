@@ -21,5 +21,5 @@ function appendKitten(name){
 }
 
 function removeLastKitten(){
-  kittens.pop();
+  kittens.slice();
 }
